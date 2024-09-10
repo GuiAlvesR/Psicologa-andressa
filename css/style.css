@@ -16,11 +16,6 @@ body {
     color: #333;
 }
 
-a {
-    cursor: pointer;
-    text-decoration: none;
-}
-
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -290,7 +285,13 @@ nav .navbar-collapse ul {
     }
 }
 
+a,
+button {
+    cursor: pointer;
+}
+
 a {
+
     text-decoration: none;
     color: black;
     transition: color 0.3s ease;
@@ -298,6 +299,7 @@ a {
 
 a:hover {
     color: #F25E3D;
+    text-decoration: none;
 }
 
 .contact {
