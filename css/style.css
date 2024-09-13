@@ -317,17 +317,6 @@ div {
     opacity: 1;
 }
 
-@media (min-width: 769px) {
-
-    .info {
-        flex-direction: row;
-    }
-
-    .dados {
-        width: 50%;
-    }
-}
-
 .contact h2,
 .contact h4 {
     font-size: 1.5rem;
@@ -337,7 +326,6 @@ div {
     width: 100%;
     height: 50%;
 }
-
 
 .header-icons {
     display: flex;
@@ -354,7 +342,6 @@ div {
     animation: translateY 0.8s infinite alternate;
     color: #d34040;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-
 }
 
 @keyframes translateY {
@@ -373,7 +360,6 @@ button {
 }
 
 a {
-
     text-decoration: none;
     color: black;
     transition: color 0.3s ease;
@@ -439,7 +425,7 @@ a:hover {
     }
 
     #sobre {
-        margin-bottom: 400px;
+        margin-bottom: 15rem;
     }
 
     .info {
@@ -518,6 +504,7 @@ a:hover {
 
     .atendimento h3 {
         font-size: 1.4rem;
+        margin: 1rem;
     }
 
     h4 {
@@ -604,5 +591,16 @@ a:hover {
     .contact h2,
     .contact h4 {
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .info {
+        flex-direction: row;
+    }
+
+    .dados {
+        width: 50%;
     }
 }
