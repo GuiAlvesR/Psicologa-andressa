@@ -14,11 +14,12 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-size: 100%;
 }
 
 body {
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
 }
 
@@ -346,7 +347,7 @@ a:hover {
 }
 
 .left-footer {
-    width: 30%;
+    width: 40%;
 }
 
 .contact img {
@@ -408,14 +409,26 @@ a:hover {
     }
 
     .contact {
+        text-align: center;
         flex-direction: column;
         align-items: center;
-        gap: 3rem;
-        padding: 0;
+        gap: 2rem;
+        padding: 0.5rem;
+    }
+
+    .left-footer {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .contact img {
         width: 80%;
+    }
+
+    .btn-whatsapp img {
+        max-width: 44px
     }
 
     .header-icons {
@@ -431,25 +444,29 @@ a:hover {
         text-align: center;
     }
 
+    html {
+        font-size: 90%;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
+
     .intro h1 {
         font-size: 2rem;
     }
 
     .dados-title h2,
     .atendimento h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .atendimento h3 {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
 
     h4 {
-        font-size: 1.5rem;
-    }
-
-    body {
-        font-size: 14px;
+        font-size: 1.2rem;
     }
 
     .cta-btn {
@@ -467,25 +484,30 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        font-size: 0.8rem;
+    }
+
     .intro h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .dados-title h2,
     .atendimento h2 {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
 
     .atendimento h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     h4 {
-        font-size: 1.25rem;
-    }
-
-    body {
-        font-size: 12px;
+        font-size: 1rem;
     }
 
     .cta-btn {
