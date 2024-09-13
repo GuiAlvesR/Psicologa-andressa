@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Gemoy';
+    src: url('../fonts/Gemoy.ttf') format('truetype'),
+        url('../fonts/Gemoy.otf') format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -55,7 +61,7 @@ nav .navbar-collapse ul {
 }
 
 #home {
-    background-image: url(../imagens/teste.jpeg);
+    background-image: url(../imagens/WhatsApp\ Image\ 2024-09-05\ at\ 16.23.33.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +76,10 @@ nav .navbar-collapse ul {
     align-items: center;
     padding: 1rem;
     flex-direction: column;
+}
+
+.intro h1 {
+    font-family: "Gemoy", sans-serif;
 }
 
 #sobre {
@@ -90,11 +100,20 @@ nav .navbar-collapse ul {
     height: 100%;
 }
 
+.dados span a {
+    text-decoration: underline;
+}
+
 .dados-title {
+    font-family: "Gemoy", sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.dados-title h1 {
+    font-family: "Gemoy", sans-serif;
 }
 
 .dados-title img {
