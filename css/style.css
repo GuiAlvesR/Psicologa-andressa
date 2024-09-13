@@ -249,30 +249,7 @@ div {
     background-color: #f59e0b;
 }
 
-@media (max-width: 768px) {
-    .button-group {
-        flex-direction: column;
-    }
 
-    .button-item {
-        font-size: 0.9rem;
-        padding: 8px;
-    }
-}
-
-@media (max-width: 480px) {
-    .button-item {
-        font-size: 0.8rem;
-        padding: 6px;
-    }
-}
-
-@media (max-width: 480px) {
-    .local {
-        flex-direction: column;
-        padding: 10px;
-    }
-}
 
 .cta-container {
     display: flex;
@@ -438,21 +415,22 @@ a:hover {
     flex-direction: column;
 }
 
-@media (max-width: 468px) {
-    .btn-whatsapp {
-        right: 1rem;
-        bottom: 15px;
-    }
-}
-
 @media (max-width: 768px) {
+
+    html {
+        font-size: 90%;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
 
     header nav img {
         width: 30%;
     }
 
     nav .navbar-collapse ul {
-        gap: 0;
+        gap: 1rem;
     }
 
     #home {
@@ -529,14 +507,6 @@ a:hover {
         text-align: center;
     }
 
-    html {
-        font-size: 90%;
-    }
-
-    body {
-        font-size: 0.9rem;
-    }
-
     .intro h1 {
         font-size: 2rem;
     }
@@ -565,6 +535,15 @@ a:hover {
     .contact h2,
     .contact h4 {
         font-size: 1.25rem;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .button-item {
+        font-size: 0.9rem;
+        padding: 8px;
     }
 }
 
@@ -603,8 +582,23 @@ a:hover {
         font-size: 0.9rem;
     }
 
+    .button-item {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+
+    .local {
+        flex-direction: column;
+        padding: 10px;
+    }
+
     .local p {
         font-size: 0.9rem;
+    }
+
+    .btn-whatsapp {
+        right: 1rem;
+        bottom: 15px;
     }
 
     .contact h2,
