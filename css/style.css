@@ -129,6 +129,10 @@ div {
     height: 100%;
 }
 
+.dados {
+    padding: 0.5rem;
+}
+
 .dados span a {
     text-decoration: underline;
 }
