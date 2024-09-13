@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -60,6 +60,13 @@ nav .navbar-collapse ul {
     gap: 2rem;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Gemoy", sans-serif;
+}
+
 #home {
     background-image: url(../imagens/WhatsApp\ Image\ 2024-09-05\ at\ 16.23.33.jpeg);
     background-position: center;
@@ -79,7 +86,7 @@ nav .navbar-collapse ul {
 }
 
 .intro h1 {
-    font-family: "Gemoy", sans-serif;
+    font-size: 3.5rem;
 }
 
 #sobre {
@@ -105,15 +112,14 @@ nav .navbar-collapse ul {
 }
 
 .dados-title {
-    font-family: "Gemoy", sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.dados-title h1 {
-    font-family: "Gemoy", sans-serif;
+.dados-title h2 {
+    font-size: 2.5rem;
 }
 
 .dados-title img {
@@ -133,8 +139,16 @@ nav .navbar-collapse ul {
     background-attachment: fixed;
 }
 
-.atendimento h2 {
+.atendimento h2,
+.atendimento h3 {
     text-align: center;
+    font-size: 2.5rem;
+}
+
+.atendimento h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem;
 }
 
 .atendimento-info {
@@ -144,7 +158,6 @@ nav .navbar-collapse ul {
     justify-content: center;
     flex-direction: column;
 }
-
 
 .local {
     background: linear-gradient(135deg, #F2B705, #F5D547);
@@ -176,6 +189,36 @@ nav .navbar-collapse ul {
 .local:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.cta-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #F2B705, #F5D547);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn:hover {
+    background: linear-gradient(135deg, #f59e0b, #ffd60a);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cta-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(245, 213, 71, 0.4);
 }
 
 
@@ -324,16 +367,18 @@ a:hover {
 .contact {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 300px;
-    padding: 40px;
+    gap: 10rem;
+    padding: 2rem;
     width: 100%;
     height: 100%;
+}
 
+.left-footer{
+    width: 30%;
 }
 
 .contact img {
-    width: 50%;
+    width: 60%;
 }
 
 .contact ul {
@@ -342,11 +387,15 @@ a:hover {
 }
 
 .contact-dado p {
+    flex-direction: column;
+}
+
+.contact-dado p span {
     display: flex;
     flex-direction: column;
 }
 
-@media only screen and (max-width: 468px) {
+@media (max-width: 468px) {
     .btn-whatsapp {
         bottom: 15px;
         right: 40px;
@@ -354,12 +403,12 @@ a:hover {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .contact {
         flex-direction: column;
         align-items: center;
-        gap: 50px;
-        padding: 20px;
+        gap: 3rem;
+        padding: 0;
     }
 
     .contact img {
