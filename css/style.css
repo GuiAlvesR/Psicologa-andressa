@@ -224,6 +224,17 @@ div {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
+.atendimento-subtitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atendimento-subtitle img {
+    height: 7rem;
+}
+
 .container-fluid {
     overflow-x: hidden;
 }
@@ -615,12 +626,13 @@ a:hover {
     }
 
     .local {
+        max-width: 300px;
         flex-direction: column;
         padding: 10px;
     }
 
     .local p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .btn-whatsapp {
