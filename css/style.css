@@ -168,6 +168,10 @@ div {
     padding: 1rem;
 }
 
+.atendimento {
+    width: 100%;
+}
+
 .atendimento h2,
 .atendimento h3 {
     text-align: center;
@@ -274,8 +278,6 @@ div {
     background-color: #f59e0b;
 }
 
-
-
 .cta-container {
     display: flex;
     justify-content: center;
@@ -314,7 +316,7 @@ div {
 }
 
 .btn-whatsapp img {
-    max-width: 64px;
+    max-width: 74px;
     transition: transform 0.4s;
 }
 
@@ -498,7 +500,7 @@ a:hover {
     }
 
     .btn-whatsapp img {
-        max-width: 54px
+        max-width: 60px
     }
 
     .header-icons {
