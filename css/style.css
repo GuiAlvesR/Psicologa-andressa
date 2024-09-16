@@ -119,12 +119,11 @@ div {
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
-    display: flex;
 }
 
 .info {
     display: flex;
-    margin: 2rem;
+    margin: 1rem;
     gap: 2rem;
     height: 100%;
 }
@@ -153,7 +152,7 @@ div {
 }
 
 .imagem img {
-    width: 20rem;
+    width: 25rem;
 }
 
 #atendimento {
@@ -463,12 +462,13 @@ a:hover {
     }
 
     #sobre {
-        margin-bottom: 15rem;
+        margin-bottom: 22rem;
     }
 
     .info {
         flex-direction: column;
         margin: 0.5rem;
+        gap: 0rem;
     }
 
     .imagem {
@@ -655,4 +655,30 @@ a:hover {
     .dados {
         width: 50%;
     }
+}
+
+.formacoes-list {
+    list-style-type: circle;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 1.3rem;
+}
+
+.formacoes-list li {
+    margin-bottom: 3px;
+}
+
+.formacoes-list li:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s;
+}
+
+.formacoes-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: #333;
 }
