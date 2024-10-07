@@ -1,219 +1,218 @@
 @media (max-width: 768px) {
-    html {
-      font-size: 95%;
-    }
-  
-    body {
-      font-size: 1rem;
-    }
-  
-    header nav img {
-      width: 30%;
-    }
-  
-    nav .navbar-collapse ul {
-      gap: 1rem;
-    }
-  
-    #home {
-      background-image: url(../imagens/WhatsApp\ Image\ 2024-09-05\ at\ 16.23.33.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: 80vh;
-    }
-  
-    #sobre {
-      margin-bottom: 22rem;
-    }
-  
-    .info {
-      flex-direction: column;
-      margin: 0.5rem;
-      gap: 0rem;
-    }
-  
-    .imagem {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      margin: 1rem;
-    }
-  
-    .dados {
-      width: 100%;
-    }
-  
-    .dados-title {
-      justify-content: center;
-    }
-  
-    .dados-title img {
-      height: 5rem;
-    }
-  
-    .local {
-      padding: 15px;
-      margin-bottom: 1.5rem;
-    }
-  
-    .contact {
-      text-align: center;
-      flex-direction: column;
-      align-items: center;
-      gap: 2rem;
-      padding: 0.5rem;
-    }
-  
-    .left-footer {
-      width: 80%;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
-  
-    .contact img {
-      width: 80%;
-    }
-  
-    .btn-whatsapp img {
-      max-width: 60px;
-    }
-  
-    .header-icons {
-      justify-content: center;
-    }
-  
-    .header-icons a {
-      margin: 0 10px;
-    }
-  
-    .contact-dado p {
-      align-items: center;
-      text-align: center;
-    }
-  
-    .intro h1 {
-      font-size: 2.8rem;
-    }
-  
-    .dados-title h2,
-    .atendimento h2 {
-      font-size: 2rem;
-    }
-  
-    .atendimento h3 {
-      font-size: 1.8rem;
-      margin: 1rem;
-    }
-  
-    h4 {
-      font-size: 1.2rem;
-    }
-  
-    .cta-btn {
-      font-size: 1.2rem;
-    }
-  
-    .local p {
-      font-size: 1.2rem;
-    }
-  
-    .contact h2,
-    .contact h4 {
-      font-size: 1.5rem;
-    }
-  
-    .button-group {
-      flex-direction: column;
-    }
-  
-    .button-item {
-      font-size: 0.9rem;
-      padding: 8px;
-    }
-  
-    .intro h1 {
-      font-size: 2.5rem;
-    }
-  
-    .subtitle {
-      font-size: 1.5rem;
-    }
-  
-    .description {
-      font-size: 0.9rem;
-    }
+  html {
+    font-size: 95%;
   }
-  
-  @media (max-width: 480px) {
-    html {
-      font-size: 90%;
-    }
-  
-    body {
-      font-size: 0.95rem;
-    }
-  
-    .intro h1 {
-      font-size: 2.5rem;
-    }
-  
-    .dados-title h2,
-    .atendimento h2 {
-      font-size: 2rem;
-    }
-  
-    .imagem {
-      margin: 0rem;
-    }
-  
-    .atendimento h3 {
-      font-size: 1.5rem;
-    }
-  
-    .atendimento h4 {
-      font-size: 1.5rem;
-    }
-  
-    .cta-btn {
-      font-size: 1.5rem;
-    }
-  
-    .button-item {
-      font-size: 0.8rem;
-      padding: 6px;
-    }
-  
-    .local {
-      max-width: 300px;
-      flex-direction: column;
-      padding: 10px;
-    }
-  
-    .local p {
-      font-size: 1.2rem;
-    }
-  
-    .btn-whatsapp {
-      right: 1rem;
-      bottom: 15px;
-    }
-  
-    .contact h2,
-    .contact h4 {
-      font-size: 1.5rem;
-    }
+
+  body {
+    font-size: 1rem;
   }
-  
-  @media (min-width: 769px) {
-    .info {
-      flex-direction: row;
-    }
-  
-    .dados {
-      width: 50%;
-    }
+
+  header nav img {
+    width: 30%;
   }
-  
+
+  nav .navbar-collapse ul {
+    gap: 1rem;
+  }
+
+  #home {
+    background-image: url(../imagens/WhatsApp\ Image\ 2024-09-05\ at\ 16.23.33.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+  }
+
+  #sobre {
+    margin-bottom: 22rem;
+  }
+
+  .info {
+    flex-direction: column;
+    margin: 0.5rem;
+    gap: 0rem;
+  }
+
+  .imagem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .dados {
+    width: 100%;
+  }
+
+  .dados-title {
+    justify-content: center;
+  }
+
+  .dados-title img {
+    height: 5rem;
+  }
+
+  .local {
+    padding: 15px;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.5rem;
+  }
+
+  .left-footer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact img {
+    width: 80%;
+  }
+
+  .btn-whatsapp img {
+    max-width: 60px;
+  }
+
+  .header-icons {
+    justify-content: center;
+  }
+
+  .header-icons a {
+    margin: 0 10px;
+  }
+
+  .contact-dado p {
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 2.8rem;
+  }
+
+  .dados-title h2,
+  .atendimento h2 {
+    font-size: 2rem;
+  }
+
+  .atendimento h3 {
+    font-size: 1.8rem;
+    margin: 1rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  .cta-btn {
+    font-size: 1.2rem;
+  }
+
+  .local p {
+    font-size: 1.2rem;
+  }
+
+  .contact h2,
+  .contact h4 {
+    font-size: 1.5rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-item {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 90%;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .dados-title h2,
+  .atendimento h2 {
+    font-size: 2rem;
+  }
+
+  .imagem {
+    margin: 0rem;
+  }
+
+  .atendimento h3 {
+    font-size: 1.5rem;
+  }
+
+  .atendimento h4 {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    font-size: 1.5rem;
+  }
+
+  .button-item {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .local {
+    max-width: 300px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .local p {
+    font-size: 1.2rem;
+  }
+
+  .btn-whatsapp {
+    right: 1rem;
+    bottom: 15px;
+  }
+
+  .contact h2,
+  .contact h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .info {
+    flex-direction: row;
+  }
+
+  .dados {
+    width: 50%;
+  }
+}
