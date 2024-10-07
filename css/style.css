@@ -72,17 +72,11 @@ div {
 }
 
 #home {
-  /* background-image: url(../imagens/background.jpg);
+  background-image: url(../imagens/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
-  height: 75vh; */
-  max-width: 100vw;
-}
-
-#home img {
   width: 100%;
   height: 75vh;
 }
