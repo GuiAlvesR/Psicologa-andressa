@@ -85,6 +85,23 @@ div {
   height: 75vh;
 }
 
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../imagens/fundo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 75vh;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -133,15 +150,15 @@ div {
   height: 100%;
 }
 
-.dados-info {
-  user-select: none;
-}
-
 .dados {
   padding: 0.5rem;
 }
 
-.dados span a {
+.dados-info {
+  user-select: none;
+}
+
+.dados-info span a {
   text-decoration: underline;
 }
 
